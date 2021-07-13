@@ -1,0 +1,94 @@
+
+   p, div>h2 {
+    font-family: 'Oswald', sans-serif;
+   } 
+
+
+
+.title-police {
+    font-family: 'Courgette', cursive;
+   
+}
+
+
+
+.header{
+    height: 25rem;
+    background-image:url("./img/header.jpg");
+    background-position: center;
+}
+
+.header-bg {
+    height: 25rem;
+    background-color:rgba(0, 0, 0, 0.7);
+    
+}
+
+
+.container-fluid {
+    border-bottom:  1px solid rgba(255, 255, 255, 0.35);
+
+
+
+}
+
+
+.navbar-nav{
+    flex: 1;
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+#img-metro-header {
+    height: 600px;
+    width: 100%;
+    
+
+}
+
+.titre-index {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#square-index {
+    height: 4rem;
+}
+
+.titre-page {
+    margin: 2.5rem;
+}
+
+
+.row {
+    margin:1rem
+}
+
+
+.cow>div {
+    margin: 1rem;
+}
+
+
+.footer>div {
+    margin: 4rem;
+
+}
+
+.footer li {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.8)
+    
+}
+
+.button-footer{
+    border: none;
+    border-radius: 5px;
+}
