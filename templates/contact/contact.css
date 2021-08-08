@@ -1,0 +1,12 @@
+.header{
+    height: 25rem;
+    background-image:url("../../img/header.jpg");
+    background-position: center;
+}
+
+.header-bg {
+    height: 25rem;
+    background-color:rgba(0, 0, 0, 0.7);
+    
+}
+#mapid { height: 180px; }

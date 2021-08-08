@@ -7,61 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../../bootstrap-5.0.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./templates/homepage/homepage.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>Homepage</title>
 </head>
 
 <body>
 
 
-    <div>
 
 
-        <header class="header">
+    <header class="header">
 
-            <div class="header-bg">
+        <div class="header-bg">
 
-                <div class="nav-header">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant">
-                        <div class="container-fluid">
+            <div class="nav-header">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparant">
+                    <div class="container-fluid">
 
-                            <a class="navbar-brand title-police" href="#">Cui'zine</a>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Accueil</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#" id="navbarDropdown">Equipe</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <a class="navbar-brand title-police" href="#">Cui'zine</a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.html">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./templates/team/team.html" id="navbarDropdown">Equipe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./templates/post/post.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./templates/contact/contact.html">Contact</a>
+                                </li>
+                            </ul>
                         </div>
-                    </nav>
-                    <div class="titre-index ">
-                        <img id="square-index" src="./img/logo_square_white.png" alt="image-fourchette">
-                        <h1 class="title-police">Cui'zine</h1>
-                        <h3 class="title-police">Le mag cuisine</h3>
                     </div>
-
+                </nav>
+                <div class="titre-index ">
+                    <img id="square-index" src="./img/logo_square_white.png" alt="image-fourchette">
+                    <h1 class="title-police">Cui'zine</h1>
+                    <h3 class="title-police">Le mag cuisine</h3>
                 </div>
 
             </div>
 
+        </div>
 
 
-        </header>
-    </div>
+
+    </header>
+
 
 
     <main class="container">
@@ -75,10 +75,9 @@
 
             <div class="col-lg-9">
 
-
                 <div class="row">
                     <div class="col-lg-3">
-                        <img src="../../img/articles/metro/metro-small.jpg" alt="image" width="180px">
+                        <img src="./img/articles/metro/metro-small.jpg" alt="image" width="180px">
                     </div>
                     <div class="col-lg-9">
 
@@ -92,7 +91,7 @@
 
                 <div class="row">
                     <div class="col-lg-3">
-                        <img src="../../img/articles/suzette/suzette-small.jpg" alt="image" width="180px">
+                        <img src="./img/articles/suzette/suzette-small.jpg" alt="image" width="180px">
                     </div>
                     <div class="col-lg-9">
                         <h3 class="title-police">Le Métro dessert</h3>
@@ -110,7 +109,7 @@
 
                 <div class="row">
                     <div class="col-lg-3">
-                        <img src="../../img/articles/vitaly/vitaly-small.jpg " alt="image" width="180px">
+                        <img src="./img/articles/vitaly/vitaly-small.jpg " alt="image" width="180px">
                     </div>
                     <div class="col-lg-9">
                         <h3 class="title-police">Vitaly, le végan italien</h3>
@@ -123,9 +122,7 @@
                 </div>
 
             </div>
-
-
-            <div class="col-lg-3">
+            <div class="col-lg-3 mt-5 pt-3">
 
 
                 <div class="row">
@@ -150,7 +147,7 @@
                 </div>
 
                 <div class="row">
-                    <h4 class="title-police">Partager</h4>
+                    <h3 class="title-police">Partager</h3>
                     <div class="col-lg-3">
                         <i class="fab fa-facebook-square"></i>
                     </div>
@@ -169,61 +166,62 @@
             </div>
 
 
+
         </div>
 
 
     </main>
 
 
+    
+    <footer class="footer">
 
-    <footer
-        class="container d-lg-flex d-md-block pt-5 pb-5 justify-content-around mt-5 bg-dark text-light footer">
+        <div class=" bg-dark d-flex justify-content-around   text-light pt-5 pb-5 ">
 
+            <div class="title-police">Categories
 
-        <div class="title-police">Categories
-
-            <ul class="list-unstyled">
-                <li>
-                    <a href="">Revues</a>
-                </li>
-                <li>
-                    <a href="">Recettes</a>
-                </li>
-                <li>
-                    <a href="">Decouvertes</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="title-police">Archives
-            <ul class="list-unstyled">
-                <li>
-                    <a href="">2019</a>
-                </li>
-                <li>
-                    <a href="">2018</a>
-                </li>
-                <li>
-                    <a href="">2017</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h6 class=" title-police">Newsletter</h6>
-            <form>
-                <input type="email" placeholder="Email..">
-                <button>S'inscrire</button>
-            </form>
-
-            <h6 class="title-police">Partager</h6>
-            <div class="button-share-footer">
-                <button class="button-footer"> <i class="fab fa-facebook-square"></i></button>
-                <button class="button-footer"><i class="fab fa-instagram"></i> </button>
-                <button class="button-footer"><i class="fab fa-youtube"></i></button>
-                <button class="button-footer"><i class="fab fa-twitter"></i></button>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="">Revues</a>
+                    </li>
+                    <li>
+                        <a href="">Recettes</a>
+                    </li>
+                    <li>
+                        <a href="">Decouvertes</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+
+            <div class="title-police">Archives
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="">2019</a>
+                    </li>
+                    <li>
+                        <a href="">2018</a>
+                    </li>
+                    <li>
+                        <a href="">2017</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class=" title-police">Newsletter</h6>
+                <form>
+                    <input type="email" placeholder="Email..">
+                    <button>S'inscrire</button>
+                </form>
+
+                <h6 class="title-police">Partager</h6>
+                <div class="button-share-footer">
+                    <button class="button-footer"> <i class="fab fa-facebook-square"></i></button>
+                    <button class="button-footer"><i class="fab fa-instagram"></i> </button>
+                    <button class="button-footer"><i class="fab fa-youtube"></i></button>
+                    <button class="button-footer"><i class="fab fa-twitter"></i></button>
+                </div>
+            </div>
 
 
 

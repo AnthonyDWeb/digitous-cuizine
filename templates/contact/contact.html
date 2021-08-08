@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../homepage/homepage.css">
-    <link rel="stylesheet" href="../../bootstrap-5.0.1-dist/css/bootstrap.css">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+            integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../../bootstrap-5.0.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./contact.css">
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
 
-<body>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200&display=swap"
+            rel="stylesheet">
+        <title></title>
+    </head>
 
-
-    <div>
-
+    <body>
 
         <header class="header">
 
@@ -28,25 +34,24 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Accueil</a>
+                                        <a class="nav-link" href="../../index.html">Accueil</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#" id="navbarDropdown">Equipe</a>
+                                        <a class="nav-link" href="../team/team.html" id="navbarDropdown">Equipe</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
+                                        <a class="nav-link" href="../post/post.html">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                        <a class="nav-link" href="../contact/contact.html">Contact</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </nav>
                     <div class="titre-index ">
-                        <img id="square-index" src="./img/logo_square_white.png" alt="image-fourchette">
-                        <h1 class="title-police">Cui'zine</h1>
-                        <h3 class="title-police">Le mag cuisine</h3>
+                        <img id="square-index" src="../../img/logo_square_white.png" alt="image-">
+                        <h1 class="title-police">Nous contacter</h1>
                     </div>
 
                 </div>
@@ -56,141 +61,138 @@
 
 
         </header>
-    </div>
 
-
-    <main class="container">
-
-
-
-        <div class="row">
-
-            <div class="col-lg-9">
-
-                <div class="titre-page">
-                    <h4>Contact</h4>
-                <div class="ms-3">
-                    <h4>Adresse</h4>
-                    <p>station F</p>
-                    <p>5 Parvis Alan Turing</p>
-                    <p>75013</p>
-                 </div>
-                    
+        <main>
+            <div class="row mx-5">
+                <div class="col-lg-9 ps-5 pt-3 title-police">
+                    <h2 class=" title-police">Contact</h2>
+                    <div  class="ms-5">
+                        <h2 class="title-police">Adresse</h2>
+                        <p>Station F</p>
+                        <p>5 Parvis Alin Turing</p>
+                        <p>75013 Paris</p>
+                    </div>
                 </div>
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="632" height="333" id="gmap_canvas" src="https://maps.google.com/maps?q=5%20parvis%20alan%20turing&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a><br><style>.mapouter{position:relative;text-align:right;height:333px;width:632px;}</style><a href="https://www.embedgooglemap.net">how to add google maps to your website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:333px;width:632px;}</style></div></div>
-               
-
+                <div class="col-lg-3 pt-3">
+    
+    
+                    <div class="row">
+    
+                        <form>
+    
+                            <label class="col-lg-12 title-police"> Recherches</label>
+                            <input class="col-lg-12" type="search" placeholder="recherche..">
+                            <input class="input-2 col-lg-12" type="submit" value="OK">
+                        </form>
+                    </div>
+    
+    
+                    <div class="row">
+    
+                        <form class="form-right">
+    
+                            <label class="col-lg-12 title-police"> Newsletter</label>
+                            <input class="col-lg-12" type="email" placeholder="Email..">
+                            <input class="input-2 col-lg-12" type="submit" value="S'inscrire">
+                        </form>
+                    </div>
+    
+                    <div class="row">
+                        <h3 class="title-police">Partager</h3>
+                        <div class="col-lg-3">
+                            <i class="fab fa-facebook-square"></i>
+                        </div>
+                        <div class="col-lg-3">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="col-lg-3">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="col-lg-3">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+    
+    
+                </div>
             </div>
+            
+            <!-- <div id="mapid">
+                <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin="">
+                var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 18,
+                    id: 'mapbox/streets-v11',
+                    tileSize: 512,
+                    zoomOffset: -1,
+                    accessToken: 'your.mapbox.access.token'
+                }).addTo(mymap);
+                </script>
+            </div> -->
+                
+            
+        </main>
 
+        <footer class="footer">
 
-            <div class="col-lg-3">
-
-
-                <div class="row">
-
+            <div class=" bg-dark d-flex justify-content-around   text-light pt-5 pb-5 ">
+    
+                <div class="title-police">Categories
+    
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">Revues</a>
+                        </li>
+                        <li>
+                            <a href="">Recettes</a>
+                        </li>
+                        <li>
+                            <a href="">Decouvertes</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="title-police">Archives
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">2019</a>
+                        </li>
+                        <li>
+                            <a href="">2018</a>
+                        </li>
+                        <li>
+                            <a href="">2017</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h6 class=" title-police">Newsletter</h6>
                     <form>
-
-                        <label class="col-lg-12 title-police"> Recherches</label>
-                        <input class="col-lg-12" type="search" placeholder="recherche..">
-                        <input class="input-2 col-lg-12" type="submit" value="OK">
+                        <input type="email" placeholder="Email..">
+                        <button>S'inscrire</button>
                     </form>
-                </div>
-
-
-                <div class="row">
-
-                    <form class="form-right">
-
-                        <label class="col-lg-12 title-police"> Newsletter</label>
-                        <input class="col-lg-12" type="email" placeholder="Email..">
-                        <input class="input-2 col-lg-12" type="submit" value="S'inscrire">
-                    </form>
-                </div>
-
-                <div class="row">
-                    <h4 class="title-police">Partager</h4>
-                    <div class="col-lg-3">
-                        <i class="fab fa-facebook-square"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                    <div class="col-lg-3">
-                        <i class="fab fa-twitter"></i>
+    
+                    <h6 class="title-police">Partager</h6>
+                    <div class="button-share-footer">
+                        <button class="button-footer"> <i class="fab fa-facebook-square"></i></button>
+                        <button class="button-footer"><i class="fab fa-instagram"></i> </button>
+                        <button class="button-footer"><i class="fab fa-youtube"></i></button>
+                        <button class="button-footer"><i class="fab fa-twitter"></i></button>
                     </div>
                 </div>
-
-
+    
+    
+    
+    
+    
             </div>
-
-
-        </div>
-
-
-    </main>
-
-
-
-    <footer
-        class="container d-lg-flex d-md-block pt-5 pb-5 justify-content-around mt-5 bg-dark text-light footer">
-
-
-        <div class="title-police">Categories
-
-            <ul class="list-unstyled">
-                <li>
-                    <a href="">Revues</a>
-                </li>
-                <li>
-                    <a href="">Recettes</a>
-                </li>
-                <li>
-                    <a href="">Decouvertes</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="title-police">Archives
-            <ul class="list-unstyled">
-                <li>
-                    <a href="">2019</a>
-                </li>
-                <li>
-                    <a href="">2018</a>
-                </li>
-                <li>
-                    <a href="">2017</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h6 class=" title-police">Newsletter</h6>
-            <form>
-                <input type="email" placeholder="Email..">
-                <button>S'inscrire</button>
-            </form>
-
-            <h6 class="title-police">Partager</h6>
-            <div class="button-share-footer">
-                <button class="button-footer"> <i class="fab fa-facebook-square"></i></button>
-                <button class="button-footer"><i class="fab fa-instagram"></i> </button>
-                <button class="button-footer"><i class="fab fa-youtube"></i></button>
-                <button class="button-footer"><i class="fab fa-twitter"></i></button>
-            </div>
-        </div>
-
-
-
-
-
-        </div>
-
-
-    </footer>
+    
+    
+        </footer>
 
 
 

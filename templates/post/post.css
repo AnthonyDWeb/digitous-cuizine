@@ -1,0 +1,39 @@
+.header{
+    height: 25rem;
+    background-image:url("../../img/articles/suzette/suzette-header.jpg");
+    background-position: center;
+}
+
+.header-bg {
+    height: 3.5rem;
+    background-color:rgba(2, 0, 0, 0.85);  
+}
+.container-fluid {
+    border-bottom:  none;
+}
+h1{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:rgba(2, 0, 0, 0.85);   
+}
+
+p{
+    font-size: 1.2rem;
+    /* margin-left: 50px; */
+}
+.premier{
+    margin-left: 55px;
+}
+.lettrine{
+    top: 465px;
+    left: 105px;
+    /* color: red; */
+    font-weight: 600;
+    position: absolute;
+}
+span.lettrine p{
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+    font-size: 5.7rem;
+}
+
